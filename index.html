@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+    
     <link rel="stylesheet" href="./css/index.css">
     <meta charset="UTF-8">
 
@@ -13,13 +14,54 @@
 <body>
 
     <div class="my-header">
-        <h1>Tom's Website</h1>
+         <a href="#home"><h1> Tom's Website </h1> </a>
         <div id="my-header"> </div>
+        <div class="links">
+            <ul>
+                <a href="#home"><li>Home</li></a>
+                <a href=""><li>Home</li></a>
+                <a href=""><li>Home</li></a>
+                <a href=""><li>Home</li></a>
+                
+            </ul>
+        </div>
     </div>
 
 
 
-    <div class="about-me">
+    <div class="about-me" id="home">
+        <div class="container">
+            <div id="profile-picture">
+                <img src="./images/profilePic.jpg" class="pImg">
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="description">
+                <p>
+                    Hello, my name is Dagvadorj (Tom) Altankuyag and I have just completed my 3rd year Software Engineering student at the University of Calgary. I am currently looking for an Internship commencing Fall 2022, I am passionate for Full Stack Development and everything in between.
+                </p>
+                <p>
+                   I am enthusiastic for technology, weightlifting, video gaming, longboarding and music! I love to experience new things, and constantly broadan my horizon.
+                   That includes learning new technologies (frameworks, languages etc.), learning about other people's hobbies and interests, trying out new sports and activities and let's not forget about tasting new types of food!
+                </p>
+                <p>
+                    This website was built using basic HTML, CSS and JavaScript. I am currently working on a web project using ReactJS, the current website will be updated the moment it is ready to publish.
+                </p>
+                
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    <!-- <div class="about-me">
         <div class="container">
             <div id="profile-picture">
                 <img src="./images/profilePic.jpg" class="pImg">
@@ -27,24 +69,22 @@
         </div>
     </div>
 
-    <div class="about-me">
+    <div class="about-me" id="test1">
         <div class="container">
             <div id="profile-picture">
                 <img src="./images/profilePic.jpg" class="pImg">
             </div>
         </div>
-    </div>
-    
-    <div class="about-me">
-        <div class="container">
-            <div id="profile-picture">
-                <img src="./images/profilePic.jpg" class="pImg">
-            </div>
-        </div>
-    </div>
+    </div> -->
 
 
-
+    <footer id="main-footer">
+        <p>---Dagvadorj (Tom) Altankhuyag---403.919.3591---tomaltankhuyag@outlook.com---</p>
+        <p id="footer-date"></p>
+    </footer>
+    <script>
+        document.getElementById("footer-date").innerHTML = Date().substring(0,25)
+        </script> 
 
     <!-- hello skrrr -->
 </body>
