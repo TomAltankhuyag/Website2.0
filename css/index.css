@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    line-height: 3vh;
+
+}
+
+.clr {
+    clear: both;
+}
+
+.container {
+    margin: auto;
+    width: 80;
+    overflow: hidden;
+    opacity: 1;
+}
+
+.my-header {
+    position: fixed;
+    max-height: 70px;
+    height: 70px;
+    width: 100%;
+    z-index: 1;
+}
+
+#my-header {
+    /* background-color: blueviolet; */
+    position: absolute;
+    max-height: inherit;
+    height: 100%;
+    width: 100%;
+    background-image: url('../images/header-image.jpg');
+    opacity: 0.5;
+    z-index: 1;
+
+}
+
+.my-header h1 {
+
+    position: absolute;
+    padding-left: 0.5em;
+    color: red;
+    border-color: black;
+    opacity: 1;
+    z-index: 3;
+
+}
+
+.about-me {
+
+    background-image: url('../images/nature.jpg');
+    background-position: center;
+    position: relative;
+    min-height: 100vh;
+}
+
+
+
+#profile-picture {
+    position: absolute;
+    margin: auto;
+    max-height: 286px;
+    max-width: 286px;
+    width: 100vh;
+    height: auto;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    /* background-image: url('../images/profilePic.jpg'); */
+
+    /* background-repeat: no-repeat; */
+    /* top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+
+}
+
+.pImg {
+    /* position: center ; */
+    border-radius: 50%;
+  
+    width: 100%;
+    height: 100%;
+    /* margin-left: 50%; */
+}
